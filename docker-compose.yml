@@ -1,4 +1,4 @@
-version: '3.7'
+version: '2.13.0'
 services:
   db:
     image: postgres:12-alpine
@@ -10,4 +10,4 @@ services:
     volumes:
       - ./data:/var/lib/postgresql/data
     ports:
-      - '3128:3128'
+      - '5432:5432'
