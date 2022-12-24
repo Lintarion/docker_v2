@@ -5,7 +5,7 @@ services:
     restart: always
     environment:
       POSTGRES_DB: app
-      POSTGRES_USER: user
+      POSTGRES_USER: app
       POSTGRES_PASSWORD: Loner123
     volumes:
       - ./data:/var/lib/postgresql/data
