@@ -5,9 +5,9 @@
 
 1. Создать локальный репозиторий с файлами (gitignore, db-api.jar, application.properties, docker-compose.yml). Инициализировать его. Сделать commit. Привязать к удаленному репозиторию на GitHub. Сделать push
 2. Запустить локально прдварительно установленный docker desktop. 
-3. Запустить Intelege IDEA с предустановленным плагином Docker.
+3. Запустить IntelliJ IDEA с предустановленным плагином Docker.
 4. Скачать c ресурса https://hub.docker.com/_/postgres/tags: Image PostgreSQL (версия Image: 12-alpine)
-5. В терминале Intelege IDEA набрать команду - docker pull postgres:12-alpine 
+5. В терминале IntelliJ IDEA набрать команду - docker pull postgres:12-alpine 
 6. Вносим корректировки в файлы:
    - application.properties,
    - docker-compose.yml. 
