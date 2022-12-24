@@ -4,8 +4,8 @@ services:
     image: postgres:12-alpine
     restart: always
     environment:
-      POSTGRES_DB: app
-      POSTGRES_USER: app
+      POSTGRES_DB: db
+      POSTGRES_USER: user
       POSTGRES_PASSWORD: Loner123
     volumes:
       - ./data:/var/lib/postgresql/data
